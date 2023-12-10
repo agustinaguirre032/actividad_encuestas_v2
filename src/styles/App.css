@@ -1,0 +1,217 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/* Estilos para el menú de navegación */
+nav {
+  background-color: #19894f;
+  color: white;
+  padding: 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+}
+
+body {
+  background-color: black;
+  color: white;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: right;
+  padding: 0;
+}
+li {
+  margin: 0 20px;
+}
+a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  color: 007bff;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+a:hover {
+  color: #ffffff;
+  font-size: 17px;
+}
+/* Estilos para los formularios */
+form {
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  max-width: 600px;
+  margin: 0 auto;
+}
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+input[type="text"],
+textarea {
+  width: 95%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  transition: border-color 0.3s;
+}
+input[type="text"]:focus,
+textarea:focus {
+  border-color: #007bff;
+}
+ .create {
+  background-color: #279cca;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+.create:hover {
+  background-color: #227a9c;
+}
+
+.cancel {
+  background-color: #53606d;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+.cancel:hover {
+  background-color: #3c454d;
+}
+
+
+
+/* Estilos para el listado de encuestas */
+.encuesta-item-container {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 10px; /* Agregamos bordes redondeados */
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: block;
+  transition: transform 0.3s; /* Agregamos una transición suave */
+  margin: 10px 0;
+  color: black;
+}
+.encuesta-item-container:hover {
+  transform: translateY(-5px); /* Efecto de elevación al pasar el mouse */
+  background-color: #70e9ab;
+}
+.encuesta-item h2 {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+.encuesta-item p {
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+.new-survey{
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+label {
+  color: black;
+}
+
+.back {
+  color: white;
+}
+
+.button-container {
+  text-align: right; /* Alinea los botones a la derecha */
+}
+
+.button-container button {
+  margin-left: 10px; /* Agrega un espacio entre los botones */
+}
+
+.menu-title {
+  margin: 0;
+  color: white;
+  font-size: 24px; /* Ajusta el tamaño del título según tus preferencias */
+  flex-grow: 1; /* Hace que el título ocupe el espacio restante en el nav */
+}
+
+
+.error {
+  color: red;
+  font-size: 14px;
+  margin-bottom: 25px; /* Espacio entre el campo de entrada y el mensaje de error */
+}
+
+
+
+
+
+
+.sent-survey {
+    background-color: #16df2d;
+    color: rgb(0, 0, 0);
+    border: none;
+    font-weight: bold;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+
+    position: absolute;
+    right: 20px;
+  }
+  .sent-survey:hover {
+    background-color: #177a23;
+    color: white;
+  }
+
+
+
+
+  .opcion-container {
+    margin: 10px 0;
+  }
+  
+  .opcion-label {
+    display: flex;
+    align-items: center;
+  }
+  
+  .opcion-label input {
+    margin-right: 5px;
+  }
+  
+
+
+  .see-survey {
+    color: black;
+  }
+
+
+
+  /* Estilo para los botones de agregar pregunta y agregar opción */
+.add-button {
+  background-color: #007bff; /* Cambia el color de fondo según tus preferencias */
+  color: #fff; /* Cambia el color del texto según tus preferencias */
+  border: none;
+  padding: 8px 16px;
+  margin-top: 8px;
+  cursor: pointer;
+}
+
+.add-button:hover {
+  background-color: #0056b3; /* Cambia el color de fondo al pasar el mouse */
+}
